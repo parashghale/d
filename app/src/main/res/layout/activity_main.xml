@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/firstname"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Please enter fisrst name" />
+    <EditText
+        android:id="@+id/age"
+        android:textSize="20dp"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Please enter your age"
+        />
+
+    <RadioGroup
+        android:id="@+id/radiosex"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <RadioButton
+            android:id="@+id/male"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Male"
+            android:checked="true"
+            />
+        <RadioButton
+            android:id="@+id/female"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Female"
+            />
+
+
+    </RadioGroup>
+
+
+    <Button
+        android:id="@+id/btnAppend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        />
+
+    <TextView
+
+        android:id="@+id/tvNames"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+
+
+
+
+</LinearLayout>
